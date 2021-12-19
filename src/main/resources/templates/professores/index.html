@@ -7,7 +7,7 @@
 		<div class="col-12">
 			<span th:styleappend="${(param.erro == null || param.mensagem == null) ? 'display: none;' : ''}"
 					th:classappend="${(param.mensagem != null && param.erro) ? 'text-danger' : 'text-success'}" 
-					th:text="${param.mensagem != null ? param.mensagem : ''}">Uma mensagem</span>
+					th:text="${param.mensagem != null ? param.mensagem : ''}"></span>
 		</div>
 	</div>
   	<section class="container">
